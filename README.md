@@ -25,9 +25,7 @@ DeepLoc is an end-to-end deep learning model that processes entire protein seque
 Install the required Python packages:
 
 ```bash
-python -m venv venv
-source venv/bin/activate
-pip install numpy scipy theano lasagne biopython pandas scikit-learn
+pip install jupyter notebook numpy scipy pandas torch matplotlib scikit-learn
 ```
 
 > 📌 Note: The original implementation used Python 2.7, Theano 0.9.0, and Lasagne 0.2. You may use PyTorch or TensorFlow if reimplementing from scratch.
